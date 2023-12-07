@@ -27,3 +27,5 @@ jobs:
 
       - name: build FastLED examples
         run: ./ci/ci-compile
+      - name: idf.py build
+        uses: CalinRadoni/esp-idf-v4-container-action@v4.2            
